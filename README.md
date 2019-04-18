@@ -5,10 +5,12 @@ A collection of useful resources I want to be able to reference in the future.
 - [References for Learning 3D Programming](#references-for-learning-3d-programming)
   - [Compute Shaders](#compute-shaders)
     - [Blog Posts](#blog-posts)
+  - [Gamma](#gamma)
+    - [Blog Posts](#blog-posts-1)
   - [Physically Based Rendering](#physically-based-rendering)
     - [Examples](#examples)
   - [Tone Mapping](#tone-mapping)
-    - [Blog Posts](#blog-posts-1)
+    - [Blog Posts](#blog-posts-2)
     - [Examples](#examples-1)
     - [Assets](#assets)
 
@@ -17,6 +19,12 @@ A collection of useful resources I want to be able to reference in the future.
 ### Blog Posts
 
 - [Introduction to compute shaders](https://anteru.net/blog/2018/intro-to-compute-shaders/index.html) by Anteru
+
+## Gamma
+
+### Blog Posts
+
+- [What Every Coder Should Know About Gamma](http://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/) by John Novak
 
 ## Physically Based Rendering
 
