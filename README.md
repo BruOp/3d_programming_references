@@ -12,13 +12,17 @@ A collection of useful resources I want to be able to reference in the future.
   - [Physically Based Rendering](#physically-based-rendering)
     - [Blog Posts](#blog-posts-2)
     - [Papers](#papers-1)
+    - [Presentations](#presentations)
     - [Examples](#examples)
-  - [Tone Mapping](#tone-mapping)
+  - [Shadows](#shadows)
     - [Blog Posts](#blog-posts-3)
     - [Examples](#examples-1)
+  - [Tone Mapping](#tone-mapping)
+    - [Blog Posts](#blog-posts-4)
+    - [Examples](#examples-2)
     - [Assets](#assets)
   - [HDR](#hdr)
-    - [Blog Posts](#blog-posts-4)
+    - [Blog Posts](#blog-posts-5)
 
 ## Compute Shaders
 
@@ -58,11 +62,29 @@ A collection of useful resources I want to be able to reference in the future.
 - [PBR Diffuse Lighting for GGX + Smith Microsurfaces](https://twvideo01.ubm-us.net/o1/vault/gdc2017/Presentations/Hammon_Earl_PBR_Diffuse_Lighting.pdf) by Earl Hammon
 - [Microfacet Models for Refraction through Rough Surfaces](http://www.cs.cornell.edu/~srm/publications/EGSR07-btdf.pdf) by Walter et al.
 - [Multiple-Scattering Microfacet BSDFs with the Smith Model](https://eheitzresearch.wordpress.com/240-2/) by Eric Heitz et al
+- [Real-Time Polygonal-Light Shading with Linearly Transformed Cosines](https://eheitzresearch.wordpress.com/415-2/) by Erir Heitz et al.
+
+### Presentations
+
+- [Background: Physics and Math of Shading](https://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_slides.pdf) by Naty Hoffman
+- [A Journey Through Implementing Multiscattering BRDFs and Area Lights](http://advances.realtimerendering.com/s2019/index.htm) by Stephen McAuley et al
 
 ### Examples
 
 - [Moving Frostbite to PBR](https://seblagarde.files.wordpress.com/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf) by Sebastian Legarde et al
 - [Filament](https://google.github.io/filament/Filament.html) by Romain Guy et al of Google
+
+## Shadows
+
+### Blog Posts
+
+- [Shadow Mapping Summary – Part 1](http://the-witness.net/news/2013/09/shadow-mapping-summary-part-1/) by Ignacio Castaño
+- [A Sampling of Shadow Techniques](https://mynameismjp.wordpress.com/2013/09/10/shadow-maps/) by Matt Pettineo
+- [Common Techniques to Improve Shadow Depth Maps](https://docs.microsoft.com/en-us/windows/win32/dxtecharts/common-techniques-to-improve-shadow-depth-maps)
+
+### Examples
+
+- [Shadows](https://github.com/TheRealMJP/Shadows) by Matt Pettineo
 
 ## Tone Mapping
 
