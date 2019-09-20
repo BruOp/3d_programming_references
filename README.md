@@ -17,6 +17,7 @@ A collection of useful resources I want to be able to reference in the future.
   - [Shadows](#shadows)
     - [Blog Posts](#blog-posts-3)
     - [Examples](#examples-1)
+    - [Presentations](#presentations-1)
   - [Tone Mapping](#tone-mapping)
     - [Blog Posts](#blog-posts-4)
     - [Examples](#examples-2)
@@ -85,6 +86,10 @@ A collection of useful resources I want to be able to reference in the future.
 ### Examples
 
 - [Shadows](https://github.com/TheRealMJP/Shadows) by Matt Pettineo
+
+### Presentations
+
+- [Playing with Real-Time Shadows](https://www.realtimeshadows.com/sites/default/files/Playing%20with%20Real-Time%20Shadows_0.pdf) by Nikolas Kasyan
 
 ## Tone Mapping
 
