@@ -9,21 +9,28 @@ A collection of useful resources I want to be able to reference in the future.
     - [Blog Posts](#blog-posts-1)
   - [Image Based Lighting](#image-based-lighting)
     - [Papers](#papers)
-  - [Physically Based Rendering](#physically-based-rendering)
-    - [Blog Posts](#blog-posts-2)
+  - [Post Processing (Motion Blur/DoF)](#post-processing-motion-blurdof)
     - [Papers](#papers-1)
+    - [Blog Posts](#blog-posts-2)
     - [Presentations](#presentations)
+  - [Physically Based Rendering](#physically-based-rendering)
+    - [Blog Posts](#blog-posts-3)
+    - [Papers](#papers-2)
+    - [Presentations](#presentations-1)
     - [Examples](#examples)
   - [Shadows](#shadows)
-    - [Blog Posts](#blog-posts-3)
-    - [Examples](#examples-1)
-    - [Presentations](#presentations-1)
-  - [Tone Mapping](#tone-mapping)
     - [Blog Posts](#blog-posts-4)
+    - [Examples](#examples-1)
+    - [Presentations](#presentations-2)
+  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
+    - [Blog Posts](#blog-posts-5)
+    - [Presentations](#presentations-3)
+  - [Tone Mapping](#tone-mapping)
+    - [Blog Posts](#blog-posts-6)
     - [Examples](#examples-2)
     - [Assets](#assets)
   - [HDR](#hdr)
-    - [Blog Posts](#blog-posts-5)
+    - [Blog Posts](#blog-posts-7)
 
 ## Compute Shaders
 
@@ -42,6 +49,22 @@ A collection of useful resources I want to be able to reference in the future.
 ### Papers
 
 - [A Multiple-scattering Microfacet Model for Real-time Image-based Lighting](http://www.jcgt.org/published/0008/01/03/paper.pdf) by Carmelo J. Fdez-Agüera
+
+## Post Processing (Motion Blur/DoF)
+
+### Papers
+
+- [A Reconstruction Filter for Plausible Motion Blur](https://casual-effects.com/research/McGuire2012Blur/McGuire12Blur.pdf) by Morgan McGuire et al.
+- [A Fast and Stable Feature-Aware Motion Blur Filter](https://casual-effects.com/research/Guertin2013MotionBlurReport/index.html) by Jean-Philippe Guertin et al.
+
+### Blog Posts
+
+- [Designing a next-generation post-effects pipeline](https://bartwronski.com/2014/12/09/designing-a-next-generation-post-effects-pipeline/) by Bart Wronski
+- [Separable disk-like depth of field](https://bartwronski.com/2017/08/06/separable-bokeh/comment-page-1/) by Bart Wronski
+
+### Presentations
+
+- [Next Generation Post Processing In Call Of Duty: Advanced Warfare](https://advances.realtimerendering.com/s2014/) by Jorge Jimenez
 
 ## Physically Based Rendering
 
@@ -90,6 +113,20 @@ A collection of useful resources I want to be able to reference in the future.
 ### Presentations
 
 - [Playing with Real-Time Shadows](https://www.realtimeshadows.com/sites/default/files/Playing%20with%20Real-Time%20Shadows_0.pdf) by Nikolas Kasyan
+
+## Temporal Anti-Aliasing
+
+### Blog Posts
+
+- [Temporal supersampling and antialiasing](https://bartwronski.com/2014/03/15/temporal-supersampling-and-antialiasing/) by Bart Wronski
+- [Temporal supersampling pt. 2 – SSAO demonstration](https://bartwronski.com/2014/04/27/temporal-supersampling-pt-2-ssao-demonstration/) by Bart Wronski
+
+### Presentations
+
+- [Graphics Gems from CRYENGINE 3](https://advances.realtimerendering.com/s2013/index.html) by Tiago Sousa
+- [High-Quality Temporal Supersampling](https://advances.realtimerendering.com/s2014/) by Brian Karis
+- [Temporal Antialiasing in Uncharted 4](https://advances.realtimerendering.com/s2016/index.html) by Ke Xu
+- [Filmic SMAA: Sharp Morphological and Temporal Antialiasing](https://advances.realtimerendering.com/s2016/index.html) by Jorge Jimenez
 
 ## Tone Mapping
 
