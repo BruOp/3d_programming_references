@@ -3,34 +3,52 @@
 A collection of useful resources I want to be able to reference in the future.
 
 - [References for Learning 3D Programming](#references-for-learning-3d-programming)
-  - [Compute Shaders](#compute-shaders)
+  - [Anti-Aliasing](#anti-aliasing)
     - [Blog Posts](#blog-posts)
-  - [Gamma](#gamma)
-    - [Blog Posts](#blog-posts-1)
-  - [Image Based Lighting](#image-based-lighting)
     - [Papers](#papers)
-  - [Post Processing (Motion Blur/DoF)](#post-processing-motion-blurdof)
-    - [Papers](#papers-1)
+  - [Compute Shaders](#compute-shaders)
+    - [Blog Posts](#blog-posts-1)
+  - [Gamma](#gamma)
     - [Blog Posts](#blog-posts-2)
-    - [Presentations](#presentations)
-  - [Physically Based Rendering](#physically-based-rendering)
+  - [Image Based Lighting](#image-based-lighting)
+    - [Papers](#papers-1)
+  - [Normal Mapping and Specular Aliasing](#normal-mapping-and-specular-aliasing)
     - [Blog Posts](#blog-posts-3)
     - [Papers](#papers-2)
-    - [Presentations](#presentations-1)
+    - [Presentations](#presentations)
     - [Examples](#examples)
-  - [Shadows](#shadows)
+  - [Post Processing (Motion Blur/DoF)](#post-processing-motion-blurdof)
+    - [Papers](#papers-3)
     - [Blog Posts](#blog-posts-4)
-    - [Examples](#examples-1)
-    - [Presentations](#presentations-2)
-  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
+    - [Presentations](#presentations-1)
+  - [Physically Based Rendering](#physically-based-rendering)
     - [Blog Posts](#blog-posts-5)
-    - [Presentations](#presentations-3)
-  - [Tone Mapping](#tone-mapping)
+    - [Papers](#papers-4)
+    - [Presentations](#presentations-2)
+    - [Examples](#examples-1)
+  - [Shadows](#shadows)
     - [Blog Posts](#blog-posts-6)
     - [Examples](#examples-2)
+    - [Presentations](#presentations-3)
+  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
+    - [Blog Posts](#blog-posts-7)
+    - [Presentations](#presentations-4)
+  - [Tone Mapping](#tone-mapping)
+    - [Blog Posts](#blog-posts-8)
+    - [Examples](#examples-3)
     - [Assets](#assets)
   - [HDR](#hdr)
-    - [Blog Posts](#blog-posts-7)
+    - [Blog Posts](#blog-posts-9)
+
+## Anti-Aliasing
+
+### Blog Posts
+
+- [Anti-Aliasing (SMAA T2X)](http://marcel-schindler.weebly.com/blog/anti-aliasing-smaa-t2x) by Marcel Schindler
+
+### Papers
+
+- [SMAA](http://www.iryoku.com/smaa/) by Jimenez et al.
 
 ## Compute Shaders
 
@@ -49,6 +67,26 @@ A collection of useful resources I want to be able to reference in the future.
 ### Papers
 
 - [A Multiple-scattering Microfacet Model for Real-time Image-based Lighting](http://www.jcgt.org/published/0008/01/03/paper.pdf) by Carmelo J. Fdez-Agüera
+
+## Normal Mapping and Specular Aliasing
+
+### Blog Posts
+
+- [Specular Showdown](https://blog.selfshadow.com/2011/07/22/specular-showdown/) by Stephen Hill
+- [Twitter Thread on TAA and Specular Aliasing](https://twitter.com/js_guay/status/1196250241869209601?s=20)
+
+### Papers
+
+- [LEAN Mapping](https://www.csee.umbc.edu/~olano/papers/lean/) by Marc Olano and Dan Baker
+- [Improved Specular AA](<https://www.jp.square-enix.com/tech/library/pdf/ImprovedGeometricSpecularAA(slides).pdf>) by Tokuyoshi and Kaplanyan
+
+### Presentations
+
+- [Advanced VR Rendering](http://media.steampowered.com/apps/valve/2015/Alex_Vlachos_Advanced_VR_Rendering_GDC2015.pdf) by Alex Vlachos [(Video)](https://archive.org/details/GDC2015Vlachos)
+
+### Examples
+
+- [Specular AA Example](https://blog.selfshadow.com/sandbox/specaa.html) by Anton Kaplanyan
 
 ## Post Processing (Motion Blur/DoF)
 
