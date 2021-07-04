@@ -6,39 +6,48 @@ A collection of useful resources I want to be able to reference in the future.
   - [Anti-Aliasing](#anti-aliasing)
     - [Blog Posts](#blog-posts)
     - [Papers](#papers)
-  - [Compute Shaders](#compute-shaders)
+  - [Clustered Shadering](#clustered-shadering)
     - [Blog Posts](#blog-posts-1)
-  - [Gamma](#gamma)
-    - [Blog Posts](#blog-posts-2)
-  - [Image Based Lighting](#image-based-lighting)
     - [Papers](#papers-1)
-  - [Normal Mapping and Specular Aliasing](#normal-mapping-and-specular-aliasing)
-    - [Blog Posts](#blog-posts-3)
-    - [Papers](#papers-2)
     - [Presentations](#presentations)
+  - [Compute Shaders](#compute-shaders)
+    - [Blog Posts](#blog-posts-2)
+  - [Gamma](#gamma)
+    - [Blog Posts](#blog-posts-3)
+  - [Image Based Lighting](#image-based-lighting)
+    - [Papers](#papers-2)
+  - [Normal Mapping and Specular Aliasing](#normal-mapping-and-specular-aliasing)
+    - [Blog Posts](#blog-posts-4)
+    - [Papers](#papers-3)
+    - [Presentations](#presentations-1)
     - [Examples](#examples)
   - [Post Processing (Motion Blur/DoF)](#post-processing-motion-blurdof)
-    - [Papers](#papers-3)
-    - [Blog Posts](#blog-posts-4)
-    - [Presentations](#presentations-1)
-  - [Physically Based Rendering](#physically-based-rendering)
-    - [Blog Posts](#blog-posts-5)
     - [Papers](#papers-4)
+    - [Blog Posts](#blog-posts-5)
     - [Presentations](#presentations-2)
+  - [Physically Based Rendering](#physically-based-rendering)
+    - [Blog Posts](#blog-posts-6)
+    - [Papers](#papers-5)
+    - [Presentations](#presentations-3)
     - [Examples](#examples-1)
   - [Shadows](#shadows)
-    - [Blog Posts](#blog-posts-6)
-    - [Examples](#examples-2)
-    - [Presentations](#presentations-3)
-  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
     - [Blog Posts](#blog-posts-7)
+    - [Examples](#examples-2)
     - [Presentations](#presentations-4)
-  - [Tone Mapping](#tone-mapping)
+  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
     - [Blog Posts](#blog-posts-8)
+    - [Presentations](#presentations-5)
+  - [Tone Mapping](#tone-mapping)
+    - [Blog Posts](#blog-posts-9)
     - [Examples](#examples-3)
     - [Assets](#assets)
   - [HDR](#hdr)
-    - [Blog Posts](#blog-posts-9)
+    - [Blog Posts](#blog-posts-10)
+  - [Volumetric Effects](#volumetric-effects)
+    - [Blog Posts](#blog-posts-11)
+    - [Papers](#papers-6)
+    - [Presentations](#presentations-6)
+    - [Examples/Code](#examplescode)
 
 ## Anti-Aliasing
 
@@ -49,6 +58,26 @@ A collection of useful resources I want to be able to reference in the future.
 ### Papers
 
 - [SMAA](http://www.iryoku.com/smaa/) by Jimenez et al.
+
+## Clustered Shadering
+
+### Blog Posts
+
+- [Bindless Texturing for Deferred Rendering and Decals](https://therealmjp.github.io/posts/bindless-texturing-for-deferred-rendering-and-decals/) by Matt J. Pettineo
+- [Clustered shading evolution in Granite](https://themaister.net/blog/2020/01/10/clustered-shading-evolution-in-granite/) by Hans Kristian
+- [Cull that Cone!](https://bartwronski.com/2017/04/13/cull-that-cone/) by Bart Wronski
+- [A Primer On Efficient Rendering Algorithms & Clustered Shading](www.aortiz.me/2018/12/21/CG.html) by Ángel Ortiz
+
+### Papers
+
+- [Clustered Deferred and Forward Shading](http://www.klayge.org/material/4_4/Tiled/clustered_shading_preprint.pdf) by Ola Olsson, Markus Billeter, and Ulf Assarsson
+
+### Presentations
+
+- [Improved Culling for Tiled and Clustered Rendering](http://advances.realtimerendering.com/s2017/2017_Sig_Improved_Culling_final.pdf) by Michal Drobot
+- [Practical Clustered Shading](http://newq.net/dl/pub/SA2014Practical.pdf) by Emil Persson
+- [Rendering The Hellscape of Doom: Eternal](http://advances.realtimerendering.com/s2020/RenderingDoomEternal.pdf) by Jean Geffroy, Axel Gneiting, and Yixin Wang
+- [The Devil is in the Details](http://advances.realtimerendering.com/s2016/Siggraph2016_idTech6.pdf) by Tiago Sousa and Jean Geffroy
 
 ## Compute Shaders
 
@@ -195,3 +224,27 @@ A collection of useful resources I want to be able to reference in the future.
 - [HDR color grading and display in Frostbite](https://www.ea.com/frostbite/news/high-dynamic-range-color-grading-and-display-in-frostbite) by Alex Fry
 - [HDR Display – First Steps](https://knarkowicz.wordpress.com/2016/08/31/hdr-display-first-steps/) by Krzysztof Narkowicz
 - [Tonemapping on HDR displays. ACES to rule ‘em all? ](https://c0de517e.blogspot.com/2017/02/tonemapping-on-hdr-displays-aces-to.html) by Angelo Pesce
+
+## Volumetric Effects
+
+### Blog Posts
+
+- [Sébastien Hillaire's personal website](https://sebh.github.io/)
+- [Rendering volumetric Clouds Using Signed Distance Fields](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/) by Felix Westin
+
+### Papers
+
+- [A Scalable and Production ReadySky and Atmosphere Rendering Technique](https://sebh.github.io/publications/egsr2020.pdf) by Sébastien Hillaire
+- [Precomputed Atmospheric Scattering](https://ebruneton.github.io/precomputed_atmospheric_scattering/) by Eric Bruneton
+
+### Presentations
+
+- [Nubis: Authoring Real-Time Volumetric Cloudscapes with the Decima Engine](http://advances.realtimerendering.com/s2017/index.html) by Andrew Schneider
+- [Physically Based and Scalable Atmospheres in Unreal Engine](https://blog.selfshadow.com/publications/s2020-shading-course/hillaire/s2020_pbs_hillaire_slides.pdf) by Sébastien Hillaire
+- [Physically-based and Unified Volumetric Rendering in Frostbite](https://www.ea.com/frostbite/news/physically-based-unified-volumetric-rendering-in-frostbite) by Sébastien Hillaire
+- [Physically Based Sky, Atmosphere & Cloud Rendering](https://www.ea.com/frostbite/news/physically-based-sky-atmosphere-and-cloud-rendering) by Sébastien Hillaire
+
+### Examples/Code
+
+- [Tileable Volume Noise](https://github.com/sebh/TileableVolumeNoise) from Sébastien Hillaire for creating tileable noise textures for use in cloud rendering
+- [Unreal Engine Sky Atmosphere Rendering Technique](https://github.com/sebh/UnrealEngineSkyAtmosphere) from Sébastien Hillaire, example of his ESGR 2020 paper algorithm
