@@ -12,41 +12,44 @@ A collection of useful resources I want to be able to reference in the future.
     - [Presentations](#presentations)
   - [Compute Shaders](#compute-shaders)
     - [Blog Posts](#blog-posts-2)
-  - [Gamma](#gamma)
+  - [Culling](#culling)
+    - [Presentations](#presentations-1)
     - [Blog Posts](#blog-posts-3)
+  - [Gamma](#gamma)
+    - [Blog Posts](#blog-posts-4)
   - [Image Based Lighting](#image-based-lighting)
     - [Papers](#papers-2)
   - [Normal Mapping and Specular Aliasing](#normal-mapping-and-specular-aliasing)
-    - [Blog Posts](#blog-posts-4)
+    - [Blog Posts](#blog-posts-5)
     - [Papers](#papers-3)
-    - [Presentations](#presentations-1)
+    - [Presentations](#presentations-2)
     - [Examples](#examples)
   - [Post Processing (Motion Blur/DoF)](#post-processing-motion-blurdof)
     - [Papers](#papers-4)
-    - [Blog Posts](#blog-posts-5)
-    - [Presentations](#presentations-2)
-  - [Physically Based Rendering](#physically-based-rendering)
     - [Blog Posts](#blog-posts-6)
-    - [Papers](#papers-5)
     - [Presentations](#presentations-3)
+  - [Physically Based Rendering](#physically-based-rendering)
+    - [Blog Posts](#blog-posts-7)
+    - [Papers](#papers-5)
+    - [Presentations](#presentations-4)
     - [Examples](#examples-1)
   - [Shadows](#shadows)
-    - [Blog Posts](#blog-posts-7)
-    - [Examples](#examples-2)
-    - [Presentations](#presentations-4)
-  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
     - [Blog Posts](#blog-posts-8)
+    - [Examples](#examples-2)
     - [Presentations](#presentations-5)
-  - [Tone Mapping](#tone-mapping)
+  - [Temporal Anti-Aliasing](#temporal-anti-aliasing)
     - [Blog Posts](#blog-posts-9)
+    - [Presentations](#presentations-6)
+  - [Tone Mapping](#tone-mapping)
+    - [Blog Posts](#blog-posts-10)
     - [Examples](#examples-3)
     - [Assets](#assets)
   - [HDR](#hdr)
-    - [Blog Posts](#blog-posts-10)
-  - [Volumetric Effects](#volumetric-effects)
     - [Blog Posts](#blog-posts-11)
+  - [Volumetric Effects](#volumetric-effects)
+    - [Blog Posts](#blog-posts-12)
     - [Papers](#papers-6)
-    - [Presentations](#presentations-6)
+    - [Presentations](#presentations-7)
     - [Examples/Code](#examplescode)
 
 ## Anti-Aliasing
@@ -84,6 +87,20 @@ A collection of useful resources I want to be able to reference in the future.
 ### Blog Posts
 
 - [Introduction to compute shaders](https://anteru.net/blog/2018/intro-to-compute-shaders/index.html) by Anteru
+
+## Culling
+
+### Presentations
+
+- [Culling the Battlefield](https://www.slideshare.net/DICEStudio/culling-the-battlefield-data-oriented-design-in-practice) by Daniel Collin
+- [GPU-Driven Rendering Pipelines](http://advances.realtimerendering.com/s2015/aaltonenhaar_siggraph2015_combined_final_footer_220dpi.pdf)  by Ulrich Haar and Sebastian Aaltonen
+- [Optimizing the Graphics Pipeline with Compute](https://www.wihlidal.com/projects/fb-gdc16/) by Graham Wihlidal
+
+### Blog Posts
+
+- [Software Occlusion Culling](https://software.intel.com/content/www/us/en/develop/articles/software-occlusion-culling.html) by Kiefer Kuah
+- [Experiments in GPU Base Occlusion Culling](https://interplayoflight.wordpress.com/2017/11/15/experiments-in-gpu-based-occlusion-culling/) by Kostas Anagnostou
+- [Twitter Thread on Culling](https://twitter.com/SebAaltonen/status/1300062590219976704?s=20)
 
 ## Gamma
 
